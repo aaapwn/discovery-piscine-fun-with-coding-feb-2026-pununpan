@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./backgroound.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button onclick="clicked()">Click</button>
+    </div>
+    <script>
+        let clickCount = 0;
+        function clicked() {
+            const container = document.querySelector('.container');
+            clickCount++;
+            switch (clickCount % 3) {
+                case 1:
+                    container.style.backgroundColor = 'red';
+                    break;
+                case 2:
+                    container.style.backgroundColor = 'green';
+                    break;
+                case 0:
+                    container.style.backgroundColor = 'yellow';
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
+
