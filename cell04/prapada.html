@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prapada Rukkarungsri - UX/UI Designer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: { DEFAULT: '#0d0221', 500: '#0d0221', 600: '#1a0533', 700: '#2a0845' },
+            purple: { DEFAULT: '#3b1578', 400: '#5a2d9e', 500: '#3b1578', 600: '#7b4bc4', 700: '#9d6fdf', 800: '#c4a5f0', 900: '#e2d2f8' },
+            indigo: { DEFAULT: '#1e1b4b', 400: '#312e81', 500: '#1e1b4b', 600: '#4338ca', 700: '#6366f1', 800: '#a5b4fc', 900: '#c7d2fe' },
+            navy: { DEFAULT: '#001f54', 500: '#001f54', 600: '#003da7', 700: '#005dfd', 800: '#5492ff', 900: '#a9c9ff' },
+            cerulean: { DEFAULT: '#1282a2', 500: '#1282a2', 600: '#18b2dc', 700: '#4cc9eb', 800: '#88dbf2', 900: '#c3edf8' },
+            cream: { DEFAULT: '#fefcfb', 400: '#eabfaa', 500: '#fefcfb' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: linear-gradient(180deg, #0d0221 0%, #1a0533 25%, #0a1128 60%, #001f54 100%); }
+  </style>
+</head>
+<body class="text-cream font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-dark/90 backdrop-blur border-b border-purple/20">
+    <div class="max-w-4xl mx-auto flex items-center justify-between px-6 py-3">
+      <a href="index.html" class="text-purple-700 hover:text-purple-800 text-sm font-medium">&larr; Home</a>
+      <div class="flex gap-6 text-sm">
+        <a href="#about" class="text-cream/70 hover:text-cream transition">About</a>
+        <a href="#experience" class="text-cream/70 hover:text-cream transition">Experience</a>
+        <a href="#contact" class="text-cream/70 hover:text-cream transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="pt-28 pb-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <img class="w-32 h-32 rounded-full mx-auto mb-5 ring-4 ring-purple-600/50 object-cover" src="toon.jpg" alt="Prapada">
+      <h1 class="text-3xl font-bold">Prapada Rukkarungsri</h1>
+      <p class="text-purple-700 font-medium mt-1">UX/UI Designer</p>
+      <div class="mt-4 inline-block bg-indigo/30 border border-purple/20 rounded-xl px-6 py-3 text-sm text-cream/80">
+        <strong class="text-cream">King Mongkut's Institute of Technology Ladkrabang</strong><br>
+        B.Sc. Information Technology &mdash; Multimedia for Interactive Media, Web &amp; Game Development<br>
+        Aug 2022 &ndash; Apr 2026 (Expected)
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Skills -->
+  <section id="experience" class="pb-16 px-6">
+    <div class="max-w-4xl mx-auto space-y-10">
+
+      <!-- Experience -->
+      <div>
+        <h2 class="text-xl font-bold text-purple-700 border-b border-purple/20 pb-2 mb-5">Experience</h2>
+        <div class="space-y-4">
+          <div class="bg-indigo/20 border border-purple/15 rounded-xl p-5">
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
+              <div>
+                <h3 class="font-semibold">UX/UI Designer Intern (Co-op)</h3>
+                <p class="text-purple-700 text-sm">Bitkub Labs Co., Ltd</p>
+              </div>
+              <span class="text-xs text-cream/50 shrink-0">Dec 2024 &ndash; Mar 2025</span>
+            </div>
+            <p class="text-sm text-cream/70 mt-2">Worked on UX/UI Redesign for Bitkub Academy Website. Part of the Product team, focusing on both UX and UI design using Figma.</p>
+          </div>
+          <div class="bg-indigo/20 border border-purple/15 rounded-xl p-5">
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
+              <div>
+                <h3 class="font-semibold">UX/UI Designer Intern</h3>
+                <p class="text-purple-700 text-sm">Rungrochsudsud Co., Ltd</p>
+              </div>
+              <span class="text-xs text-cream/50 shrink-0">Jun 2025 &ndash; Sep 2025</span>
+            </div>
+            <p class="text-sm text-cream/70 mt-2">UX/UI Design for Mobile application.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div>
+        <h2 class="text-xl font-bold text-purple-700 border-b border-purple/20 pb-2 mb-5">Projects</h2>
+        <div class="space-y-4">
+          <div class="bg-indigo/20 border border-purple/15 rounded-xl p-5">
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
+              <h3 class="font-semibold">CampMaster</h3>
+              <span class="text-xs text-cream/50 shrink-0">Jul 2025 &ndash; Present</span>
+            </div>
+            <p class="text-sm text-cream/70 mt-2">AI-powered camp and event management platform. Gathering requirements for UX, design and mockup UI in Figma, implement core frontend features using React.</p>
+          </div>
+          <div class="bg-indigo/20 border border-purple/15 rounded-xl p-5">
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
+              <h3 class="font-semibold">I &hearts; MY JOB</h3>
+              <span class="text-xs text-cream/50 shrink-0">Sep &ndash; Oct 2025</span>
+            </div>
+            <p class="text-sm text-cream/70 mt-2">All-in-one website for job seekers. UX/UI in Figma, prototype testing with user interviews and behavioral observation.</p>
+          </div>
+          <div class="bg-indigo/20 border border-purple/15 rounded-xl p-5">
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
+              <h3 class="font-semibold">Sherwe POS</h3>
+              <span class="text-xs text-cream/50 shrink-0">Aug &ndash; Sep 2025</span>
+            </div>
+            <p class="text-sm text-cream/70 mt-2">Management website for service-based businesses (hair salons, massage shops, car care). Responsive UI redesign for desktop and tablet using Figma.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activities -->
+      <div>
+        <h2 class="text-xl font-bold text-cerulean-700 border-b border-indigo-600/30 pb-2 mb-5">Activities</h2>
+        <ul class="space-y-2 text-sm text-cream/80 list-disc list-inside">
+          <li><strong class="text-cream">Vice Head of PR</strong> &ndash; ITCamp 20</li>
+          <li><strong class="text-cream">Staff of Production &amp; Photo</strong> &ndash; ITCamp 19, Unite 7, IT Ladkrabang Open House 2022</li>
+          <li><strong class="text-cream">Staff of Recreation &amp; Mentor</strong> &ndash; PreProgramming 66</li>
+          <li><strong class="text-cream">Teacher Assistant of Game Camp</strong> &ndash; ITCamp 21 &amp; IT Ladkrabang Open House 2024</li>
+        </ul>
+      </div>
+
+      <!-- Skills -->
+      <div>
+        <h2 class="text-xl font-bold text-cerulean-700 border-b border-indigo-600/30 pb-2 mb-5">Skills</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-purple/30 border border-purple-600/30 text-purple-800 text-xs px-3 py-1 rounded-full">Figma</span>
+          <span class="bg-purple/30 border border-purple-600/30 text-purple-800 text-xs px-3 py-1 rounded-full">Adobe Photoshop</span>
+          <span class="bg-purple/30 border border-purple-600/30 text-purple-800 text-xs px-3 py-1 rounded-full">Adobe Illustrator</span>
+          <span class="bg-purple/30 border border-purple-600/30 text-purple-800 text-xs px-3 py-1 rounded-full">Adobe Premiere Pro</span>
+          <span class="bg-indigo-400/30 border border-indigo-600/30 text-indigo-800 text-xs px-3 py-1 rounded-full">Maya</span>
+          <span class="bg-indigo-400/30 border border-indigo-600/30 text-indigo-800 text-xs px-3 py-1 rounded-full">Python</span>
+          <span class="bg-navy/40 border border-cerulean/20 text-cerulean-700 text-xs px-3 py-1 rounded-full">HTML</span>
+          <span class="bg-navy/40 border border-cerulean/20 text-cerulean-700 text-xs px-3 py-1 rounded-full">CSS</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 bg-navy/30 border-t border-indigo-600/20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-xl font-bold text-cerulean-700 mb-6">Contact</h2>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="mailto:iamtoonprapada@gmail.com" class="inline-block bg-indigo/30 border border-purple/20 rounded-xl px-6 py-3 text-sm hover:border-purple-600/50 transition">
+          <span class="block text-cream/50 text-xs mb-1">Email</span>
+          <span class="text-cerulean-700">iamtoonprapada@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

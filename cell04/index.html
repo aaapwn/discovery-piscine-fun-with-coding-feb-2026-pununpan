@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Resumes - Discovery Piscine Rush</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: { DEFAULT: '#0d0221', 500: '#0d0221', 600: '#1a0533', 700: '#2a0845' },
+            purple: { DEFAULT: '#3b1578', 400: '#5a2d9e', 500: '#3b1578', 600: '#7b4bc4', 700: '#9d6fdf', 800: '#c4a5f0', 900: '#e2d2f8' },
+            indigo: { DEFAULT: '#1e1b4b', 400: '#312e81', 500: '#1e1b4b', 600: '#4338ca', 700: '#6366f1', 800: '#a5b4fc', 900: '#c7d2fe' },
+            navy: { DEFAULT: '#001f54', 500: '#001f54', 600: '#003da7', 700: '#005dfd', 800: '#5492ff', 900: '#a9c9ff' },
+            cerulean: { DEFAULT: '#1282a2', 500: '#1282a2', 600: '#18b2dc', 700: '#4cc9eb', 800: '#88dbf2', 900: '#c3edf8' },
+            cream: { DEFAULT: '#fefcfb', 400: '#eabfaa', 500: '#fefcfb' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: linear-gradient(160deg, #0d0221 0%, #1a0533 30%, #0a1128 70%, #001f54 100%); }
+  </style>
+</head>
+<body class="min-h-screen text-cream">
+
+  <!-- Hero -->
+  <div class="min-h-screen flex flex-col items-center justify-center px-4">
+    <p class="text-purple-700 tracking-widest uppercase text-sm mb-3">Discovery Piscine Rush</p>
+    <h1 class="text-4xl md:text-5xl font-bold text-center mb-2">Our Resumes</h1>
+    <p class="text-indigo-800 mb-12 text-center">Select a team member to view their CV.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-3xl">
+
+      <!-- Card 1 -->
+      <a href="prapada.html" class="group block rounded-2xl border border-purple/30 bg-indigo/30 backdrop-blur p-8 text-center hover:border-purple-600/60 hover:-translate-y-1 transition-all duration-300">
+        <img class="w-24 h-24 rounded-full mx-auto mb-4 ring-4 ring-purple-600/40 group-hover:ring-purple-700 transition object-cover" src="toon.jpg" alt="Prapada">
+        <h2 class="text-xl font-bold text-cream">Prapada Rukkarungsri</h2>
+        <p class="text-purple-700 text-sm font-medium mt-1">UX/UI Designer</p>
+        <p class="text-indigo-800/70 text-xs mt-3">KMITL &middot; IT Multimedia</p>
+        <span class="inline-block mt-4 text-xs text-purple-800 border border-purple-700/30 rounded-full px-3 py-1 group-hover:bg-purple-700/20 transition">View Resume &rarr;</span>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="puwit.html" class="group block rounded-2xl border border-purple/30 bg-indigo/30 backdrop-blur p-8 text-center hover:border-cerulean/40 hover:-translate-y-1 transition-all duration-300">
+        <img class="w-24 h-24 rounded-full mx-auto mb-4 ring-4 ring-cerulean/30 group-hover:ring-cerulean-600 transition object-cover" src="arm.jpg" alt="Puwit">
+        <h2 class="text-xl font-bold text-cream">Puwit Nunpan</h2>
+        <p class="text-cerulean-600 text-sm font-medium mt-1">Full-Stack Developer</p>
+        <p class="text-indigo-800/70 text-xs mt-3">KMITL &middot; Software Engineering</p>
+        <span class="inline-block mt-4 text-xs text-cerulean-700 border border-cerulean-700/30 rounded-full px-3 py-1 group-hover:bg-cerulean-700/20 transition">View Resume &rarr;</span>
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>
